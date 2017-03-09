@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="customDirectiveAssignment.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-app="customDirectiveApp">
+    <div ng-controller="customDirectiveController" class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="well">
+                    <h4>Dropdown example using custom 	Directives</h4>
+                    <div class="dropdown">
+                        <button type="button">Dropdown Menu
+                            <span class="caret"></span></button>
+                        <ul>
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">Angular Js</a></li>
+                            <li><a href="#">Node Js</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
